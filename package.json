@@ -1,0 +1,33 @@
+{
+    "name": "@mindbox/tml-js-react-typings",
+    "version": "0.0.1",
+    "description": "Type definitions for translation exchange.",
+    "keywords": [
+        "typescript"
+    ],
+    "main": "index.js",
+    "types": "index.d.ts",
+    "scripts": {
+        "build": "webpack && tsc ts/index.ts --outDir ./js/ --target es5"
+    },
+    "author": "Mindbox",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mindbox-moscow/tml-js-react-typings.git"
+    },
+    "devDependencies": {
+        "source-map-loader": "^0.1.5",
+        "ts-loader": "^1.2.0",
+        "typescript": "2.1.6",
+        "webpack": "^3.0.0",
+        "@types/react": "=15.0.1"
+    },
+    "dependencies": {
+        "react": "^15.4.2"
+    },
+    "bugs": {
+        "url": "https://github.com/mindbox-moscow/tml-js-react-typings/issues"
+    },
+    "homepage": "https://github.com/mindbox-moscow/tml-js-react-typings#readme"
+}
