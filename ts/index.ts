@@ -3,8 +3,6 @@
 declare global {
 	interface Window {
 		tr?: Function;
-		trl?: Function;
-		tre?: Function;
 	}
 }
 
@@ -21,16 +19,8 @@ export function tr(...args: any[]): any {
 	});
 }
 
-export function tre(...args: any[]): any {
-	if (!window.tr || !args[0]) {
-		return args[0];
-	}
-
-	return window.tr.call(null, args[0]);
-}
-
 export function trl(...args: any[]): any {
-	if (!window.trl || !args[0] || typeof args[0] != "string") {
+	if (!window.tr || !args[0] || typeof args[0] != "string") {
 		return args[0];
 	}
 	
