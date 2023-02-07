@@ -14,7 +14,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mindbox-moscow/tml-js-react-typings.git"
+        "url": "git+https://github.com/mindbox-cloud/tml-js-react-typings.git"
     },
     "devDependencies": {
         "source-map-loader": "^0.1.5",
@@ -27,7 +27,7 @@
         "react": "^15.4.2"
     },
     "bugs": {
-        "url": "https://github.com/mindbox-moscow/tml-js-react-typings/issues"
+        "url": "https://github.com/mindbox-cloud/tml-js-react-typings/issues"
     },
-    "homepage": "https://github.com/mindbox-moscow/tml-js-react-typings#readme"
+    "homepage": "https://github.com/mindbox-cloud/tml-js-react-typings#readme"
 }
